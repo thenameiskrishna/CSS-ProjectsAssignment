@@ -1,0 +1,92 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Set basic styles */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #120101;
+      background-color: aqua;
+    }
+    
+    /* Header styles */
+    header {
+      background: #db4d4d;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    header h1 {
+      margin-bottom: 10px;
+    }
+    
+    /* Main container styles */
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    /* Introduction and About Me styles */
+    #intro {
+      margin-bottom: 40px;
+      background-color: dodgerblue;
+    }
+    
+    #intro h2 {
+      margin-bottom: 10px;
+    }
+    
+    /* Skills and Expertise styles */
+    #skills {
+      margin-bottom: 40px;
+    }
+    
+    #skills h2 {
+      margin-bottom: 10px;
+    }
+    
+    .skill {
+      margin-bottom: 10px;
+    }
+    
+    .skill h4 {
+      margin-bottom: 5px;
+    }
+    
+    /* Projects and Portfolio Showcase styles */
+    #projects {
+      margin-bottom: 40px;
+    }
+    
+    #projects h2 {
+      margin-bottom: 10px;
+    }
+    
+    .project {
+      margin-bottom: 20px;
+    }
+    
+    .project h4 {
+      margin-bottom: 5px;
+    }
+    
+    /* Contact Information styles */
+    #contact {
+      margin-bottom: 40px;
+    }
+    
+    #contact h2 {
+      margin-bottom: 10px;
+    }
+    
+    /* Footer styles */
+    footer {
+      background: #333;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }

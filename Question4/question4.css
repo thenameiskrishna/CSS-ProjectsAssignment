@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set basic styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #e66262;
+  }
+  
+  /* Header styles */
+  header {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    list-style-type: none;
+    background: #108a1a;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #0a0000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #b4a3ef;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    margin-bottom: 10px;
+  }
+  
+  /* Features section styles */
+  #features {
+    padding: 20px;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .feature img {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  
+  .feature h4 {
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    margin-bottom: 10px;
+  }
+  
+  /* Pricing section styles */
+  #pricing {
+    background-color: #282738;
+    padding: 20px;
+  }
+  
+  .plan {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .plan h4 {
+    margin-bottom: 10px;
+  }
+  
+  .plan p {
+    margin-bottom: 10px;
+  }
+  
+  /* Gallery section styles */
+  #gallery {
+    padding: 20px;
+  }
+  
+  .photo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact section styles */
+  #contact {
+    padding: 20px;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background: #333;
+    color: #f1e7ee;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  footer {
+    background: #f76666;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+  }
